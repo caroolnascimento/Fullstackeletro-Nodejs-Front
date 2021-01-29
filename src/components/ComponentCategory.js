@@ -11,26 +11,26 @@ function ComponentCategory({ produtos, setProdutos, useFixedProduct, setFixedPro
     }
 
     return (
-        <div className="categorias">
+        <div className="categorias ">
             <h3>Categorias</h3>
             <ul>
                 <li>
-                    <button type="button" onClick={() => setProdutos(useFixedProduct)}>Todos ({useFixedProduct.length})</button>
+                    <button type="button" class="btn btn-light" onClick={() => setProdutos(useFixedProduct)}>Todos ({useFixedProduct.length})</button>
                 </li>
                 <li>
-                    <button type="button" onClick={() => altAndSenderFilter('geladeira')}>Geladeiras ({altFilter('geladeira').length})</button>
+                    <button type="button" class="btn btn-light" onClick={() => altAndSenderFilter('geladeira')}>Geladeiras ({altFilter('geladeira').length})</button>
                 </li>
                 <li>
-                    <button type="button" onClick={() => altAndSenderFilter('fogao')}>Fogões ({altFilter('fogao').length})</button>
+                    <button type="button" class="btn btn-light" onClick={() => altAndSenderFilter('fogao')}>Fogões ({altFilter('fogao').length})</button>
                 </li>
                 <li>
-                    <button type="button" onClick={() => altAndSenderFilter('microondas')}>Fogões ({altFilter('microondas').length})</button>
+                    <button type="button" class="btn btn-light" onClick={() => altAndSenderFilter('microondas')}>Fogões ({altFilter('microondas').length})</button>
                     </li>
                 <li>
-                    <button type="button" onClick={() => altAndSenderFilter('Lavadora de Roupas')}>Lavadora de roupas ({altFilter('Lavadora de Roupas').length})</button>
+                    <button type="button" class="btn btn-light" onClick={() => altAndSenderFilter('Lavadora de Roupas')}>Lavadora de roupas ({altFilter('Lavadora de Roupas').length})</button>
                 </li>
                 <li>
-                    <button type="button" onClick={() => altAndSenderFilter('Lavadoura de Louças')}>Lavadora de Louças ({altFilter('Lavadoura de Louças').length})</button>
+                    <button type="button" class="btn btn-light" onClick={() => altAndSenderFilter('Lavadoura de Louças')}>Lavadora de Louças ({altFilter('Lavadoura de Louças').length})</button>
                 </li>
             </ul>
         </div>

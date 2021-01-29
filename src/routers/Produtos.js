@@ -19,8 +19,7 @@ function Produtos() {
     return (
         <React.Fragment>
             <header>
-                <h2 className="display-5">Produtos</h2>
-                <hr />
+                
             </header>
             <ComponentCategory {...{ produtos, setProdutos, useFixedProduct, setFixedProduc }} />
             <main>

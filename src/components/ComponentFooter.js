@@ -4,7 +4,7 @@ function ComponentFooter() {
     return (
         <div className="container">
             <footer id="rodape">
-                <h4 className="text-danger">Formas de Pagamento</h4>
+                <h4 className="text-danger font-weight-bold">Formas de Pagamento</h4>
                 <img src="images/formasdepagamento.png" alt="Formas de pagamento" />
                 <p>&copy; Recode Pro</p>
             </footer>

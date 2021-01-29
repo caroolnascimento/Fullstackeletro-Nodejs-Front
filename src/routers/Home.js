@@ -9,7 +9,7 @@ function Home() {
             <main>
                 <div className="container-fluid">
                     <div className="jumbotron bg-ligth">
-                        <h2 className="mb-4">Seja bem vindo(a)!</h2>
+                        <h2 className="mb-4 font-weight-bold">SEJA BEM VINDO (A) !</h2>
                         <p>Aqui nessa loja, <strong>programadores tem desconto</strong> nos produtos para sua casa!</p>
                     </div>
                 </div>
@@ -17,9 +17,7 @@ function Home() {
             </main>
 
             <br /><br /><br /><br /><br />
-            <br /><br /><br /><br /><br />
-            <br /><br /><br /><br /><br />
-            <hr />
+                                    <hr />
         </React.Fragment>
     )
 }
